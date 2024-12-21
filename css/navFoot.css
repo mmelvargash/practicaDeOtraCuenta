@@ -1,0 +1,58 @@
+/*----------------------NAVBAR---------------------------*/
+
+/*color de fondo nav*/
+.navbar{ 
+   /* background-color: #399B28 !important; */
+   background-color: #FFF !important;
+}
+
+/*color de items de nav*/
+.navbar .navbar-nav li a{
+    /* color:#FFF !important; */
+    color: black !important;
+    font-weight: bold;
+}
+/*cambio color nav.items when hover*/
+.navbar .navbar-nav li a:hover{
+    color: #399B28 !important;
+}
+
+/*color de subitems de nav*/
+.navbar .nav-item .dropdown-menu .dropdown-item{
+    /* color:#FFF !important;  */
+    color: black !important;
+    font-weight: 490;
+}
+/*cambio en botón toggler*/
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+/*borde toggler botton*/
+ .navbar-dark .navbar-toggler{
+    border:1px solid black !important;
+} 
+
+/*cambio en dropdown*/
+.dropdown-menu {
+    /* background-color: #399B28; */
+     border: white; 
+    color: black !important;
+    margin-top: 10px; /*dropdown justo debajo del nav*/
+    border-radius: 0%;
+}
+
+/*cambio en dropdown :hover*/
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+    background-color: #399B28 !important; 
+    color:  white !important;
+}
+
+
+
+/*----------------------FOOTER---------------------------*/
+.page-footer{
+    background-color: #399B28 !important;
+}
+#copyright{
+    text-align: center;
+}
